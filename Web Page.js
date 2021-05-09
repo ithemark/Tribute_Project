@@ -46,4 +46,10 @@ window.onload = function pageHeight(){
     //calculating size of div for life span
     document.getElementById("lifeSpanDiv1").style.marginTop = Math.max(height*(0.818))+"px";
     document.getElementById("lifeSpanDiv2").style.marginTop = Math.max(height*(0.818))+"px";
+
+    //changing opacity
+    document.getElementById("page1").style.opacity = 1;
+    document.getElementById("page1").style.transition = "all 2s";
+    document.getElementById("page2").style.opacity = 1;
+    document.getElementById("page2").style.transition = "all 2s";
 }

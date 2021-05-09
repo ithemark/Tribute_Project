@@ -4,6 +4,7 @@
     left: 0;
     width: 100%;
     border: 2px hidden red;
+    opacity: 0;
 }
 
 #header1, #header2{
