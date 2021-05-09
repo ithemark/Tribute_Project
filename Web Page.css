@@ -17,6 +17,7 @@
 
 #header1 > img, #header2 > img{
     position: absolute;
+    object-fit: cover;
     width: inherit;
     height: inherit;
 }
@@ -38,13 +39,13 @@
     display: flex;
     justify-content: center;
     background-color: white;
+    padding: 14px;
 }
 
 #circle1 > img, #circle2 > img{
     position: absolute;
+    object-fit: cover;
     border-radius: 50%;
-    height: inherit;
-    width: inherit;
 }
 
 #nameDiv1, #nameDiv2{
